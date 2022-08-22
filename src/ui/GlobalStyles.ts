@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
 body{
   background: ${Color.Turquoise};
   font-family: "Noto Sans", sans-serif;
-  margin: 0 auto;
+  
 }
 
 /* Box sizing rules */

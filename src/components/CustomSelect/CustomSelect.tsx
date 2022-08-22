@@ -28,6 +28,7 @@ export const CustomSelect = ({ onChange, tips }: IProps) => {
       options={options}
       styles={customStyles}
       onChange={handleChange}
+      isMulti={false}
       value={getTips()}
     />
   );
