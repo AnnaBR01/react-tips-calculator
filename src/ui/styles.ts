@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Color } from "./ui/colors";
-import circles from "./assets/circles.svg";
-import { Media } from "./ui/media";
+import { Color } from "./colors";
+import circles from "../assets/circles.svg";
+import { Media } from "./media";
 
 const StyledApp = styled.div`
   background: no-repeat url(${circles}) ${Color.LightGrey};

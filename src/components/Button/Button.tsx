@@ -2,12 +2,12 @@ import React from "react";
 import { StyledButton } from "./styles";
 
 interface IProps {
-  disabled: boolean;
+  isDisabled: boolean;
 }
 
-export const Button = ({ disabled }: IProps) => {
+export const Button = ({ isDisabled }: IProps) => {
   return (
-    <StyledButton type="submit" disabled={disabled}>
+    <StyledButton type="submit" disabled={isDisabled}>
       Ohhhoooo 🍻
     </StyledButton>
   );

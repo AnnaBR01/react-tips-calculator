@@ -1,4 +1,4 @@
 export interface IOption {
-  value: number;
+  readonly value: number;
   readonly label: string;
 }

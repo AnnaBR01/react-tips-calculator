@@ -1,8 +1,8 @@
-import React, { ChangeEventHandler } from "react";
+import React, { ChangeEvent } from "react";
 import { StyledInput } from "./styles";
 
 interface IProps {
-  onChange: ChangeEventHandler<HTMLInputElement>;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
   placeholder: string;
   name: string;
 }

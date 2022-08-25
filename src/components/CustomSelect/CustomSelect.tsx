@@ -30,6 +30,7 @@ export const CustomSelect = ({ onChange, tips }: IProps) => {
       onChange={handleChange}
       isMulti={false}
       value={getTips()}
+      isSearchable={false}
     />
   );
 };
